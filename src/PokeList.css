@@ -1,0 +1,43 @@
+.PokeList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+.poke-img{
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 40%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 6rem;
+    transition: 0.3s ease-in;
+}
+
+.poke-img:hover{
+    background-image: linear-gradient(to right top, #253753, #005b7d, #007f83, #00a05f, #84b713);
+    cursor: pointer;
+ 
+}
+
+.image{
+    height: 250px;
+    width: 250px;
+    transition: 0.3s ease-in;
+}
+.image:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+
+.poke-info{
+    width: 20%;
+    line-height: 4rem;
+    letter-spacing: 4px;
+    color: white;
+}
